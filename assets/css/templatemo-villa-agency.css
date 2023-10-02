@@ -474,16 +474,11 @@ Header Style
 }
 
 .header-area .main-nav .logo h1 {
-  margin-top: 20px;
   font-size: 28px;
   text-transform: uppercase;
   color: #ff0000;
   font-weight: 700;
   letter-spacing: 2px;
-}
-
-.background-header .main-nav .logo h1 {
-  line-height: 80px;
 }
 
 .header-area .main-nav ul.nav {
