@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/templatemo-villa-agency.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -64,16 +65,17 @@
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="#" class="logo">
-                        <h1>Sauna Studio</h1>
+                        <img src="./assets/images/logo.png">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                       <li><a id="home_link" href="#home" class="active">Početna</a></li>
-                      <li><a href="#proizvodi">Proizvodi</a></li>
                       <li><a href="#o-saunama">O saunama</a></li>
-                      <li><a href="#oprema-odrzavanje">Oprema & održavanje</a></li>
-                      <li><a href="#section5"><i class="fa fa-calendar"></i> Kontakt</a></li>
+                      <li><a href="#galerija">Galerija</a></li>
+                      <li><a href="#proizvodi">Proizvodi</a></li>
+                      <li><a href="#oprema">Oprema & održavanje</a></li>
+                      <li><a href="#kontakt"><i class="fa fa-calendar"></i> Kontakt</a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -98,7 +100,7 @@
     </div>
   </div>
 
-  <div id="o-saunama" class="featured section">
+  <div id="o-saunama" class="featured section mb-4">
     <div class="d-flex justify-content-center align-items-centers">
       <div id="sauna_description_heading" class="section-heading">
         <h6 class="text-center">O Saunama</h6>
@@ -162,7 +164,7 @@
   
   </div>
 
-  <div class="video section">
+  <div id="galerija" class="video section">
     <div class="container">
           <div class="section-heading text-center">
             <h6>| Galerija</h6>
@@ -172,7 +174,7 @@
     </div>
   </div>
 
-  <div id="carouselExampleIndicators" class="carousel slide w-50 m-auto" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel-translate carousel slide m-auto" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -261,13 +263,13 @@
                     <button class="nav-link active" id="appartment-tab" data-bs-toggle="tab" data-bs-target="#appartment" type="button" role="tab" aria-controls="appartment" aria-selected="true">Bio Sauna</button>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="appartment-tab" data-bs-toggle="tab" data-bs-target="#appartment" type="button" role="tab" aria-controls="appartment" aria-selected="true">Infracrvena</button>
+                    <button class="nav-link" id="villa-tab" data-bs-toggle="tab" data-bs-target="#villa" type="button" role="tab" aria-controls="villa" aria-selected="true">Infracrvena</button>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="villa-tab" data-bs-toggle="tab" data-bs-target="#villa" type="button" role="tab" aria-controls="villa" aria-selected="false">Finska</button>
+                    <button class="nav-link" id="finska-tab" data-bs-toggle="tab" data-bs-target="#finska" type="button" role="tab" aria-controls="finska" aria-selected="false">Finska</button>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="penthouse-tab" data-bs-toggle="tab" data-bs-target="#penthouse" type="button" role="tab" aria-controls="penthouse" aria-selected="false">Tursko kupatilo</button>
+                    <button class="nav-link" id="tursko-tab" data-bs-toggle="tab" data-bs-target="#tursko" type="button" role="tab" aria-controls="tursko" aria-selected="false">Tursko kupatilo</button>
                   </li>
                 </ul>
               </div>              
@@ -334,7 +336,62 @@
                     </div>
                   </div>
                 </div>
+                <div class="tab-pane fade" id="finska" role="tabpanel" aria-labelledby="finska-tab">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="info-table">
+                        <ul>
+                          <li>Opuštanje <span>✅</span> </li>
+                          <li>Temperatura: 50-60°C <span>✅</span></li>
+                          <li>Infracrvena toplina <span>✅</span></li>
+                          <li>Medicinske svrhe <span>✅</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="assets/images/deal-02.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                      <h4>Finska sauna</h4>
+                      <p> Finska sauna je prostorija veličine manje sobe izrađena od posebnog saunskog drva (kanadski hemlock, nordijska smreka ili bor, alder,aspen, kiri,cedar u klasičnim ili TERMO varijantama, ovisno o želji kupca) u čijem je jednom kutu peć u kojoj se nalazi vulkansko kamenje koje preuzima temperaturu grijača iz peći i koje se polijeva vodom s dodatkom eteričnog ulja (mentola,eukaliptusa i sl.) za dodatni ugođaj u sauni. Duž zidova su postavljene klupe u više nivoa na kojima se sjedi/leži, što omogućava korištenje zraka različitih stupnjeva zagrijanosti, na nižim klupama je niža temperatura.  
 
+                        Temperatura u sauni je oko 80 - 100 Celzijevih stupnjeva, a vlažnost zraka oko 15 %, što je vidljivo na termo/hygrometru koji se stavlja u saunu. 
+                        
+                        Zbog tako visoke temperature posjet sauni je skraćen na minimum, između 8 i 15 minuta, ovisno o osjećaju, dok se tijelo dobro preznoji. Nakon toga slijedi faza „hlađenja“ pod hladnim tušem (prvo toplom pa hladnom vodom) i odmor od približno 20 do 30 minuta. Cjelokupni postupak se ponavlja 3 puta. </p>
+                      <div class="icon-button">
+                        <a href="property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="tursko" role="tabpanel" aria-labelledby="tursko-tab">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="info-table">
+                        <ul>
+                          <li>Opuštanje <span>✅</span> </li>
+                          <li>Temperatura: 50-60°C <span>✅</span></li>
+                          <li>Infracrvena toplina <span>✅</span></li>
+                          <li>Medicinske svrhe <span>✅</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="assets/images/deal-02.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                      <h4>Finska sauna</h4>
+                      <p> Finska sauna je prostorija veličine manje sobe izrađena od posebnog saunskog drva (kanadski hemlock, nordijska smreka ili bor, alder,aspen, kiri,cedar u klasičnim ili TERMO varijantama, ovisno o želji kupca) u čijem je jednom kutu peć u kojoj se nalazi vulkansko kamenje koje preuzima temperaturu grijača iz peći i koje se polijeva vodom s dodatkom eteričnog ulja (mentola,eukaliptusa i sl.) za dodatni ugođaj u sauni. Duž zidova su postavljene klupe u više nivoa na kojima se sjedi/leži, što omogućava korištenje zraka različitih stupnjeva zagrijanosti, na nižim klupama je niža temperatura.  
+
+                        Temperatura u sauni je oko 80 - 100 Celzijevih stupnjeva, a vlažnost zraka oko 15 %, što je vidljivo na termo/hygrometru koji se stavlja u saunu. 
+                        
+                        Zbog tako visoke temperature posjet sauni je skraćen na minimum, između 8 i 15 minuta, ovisno o osjećaju, dok se tijelo dobro preznoji. Nakon toga slijedi faza „hlađenja“ pod hladnim tušem (prvo toplom pa hladnom vodom) i odmor od približno 20 do 30 minuta. Cjelokupni postupak se ponavlja 3 puta. </p>
+                      <div class="icon-button">
+                        <a href="property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 </div>
               </div>
             </div>
@@ -344,7 +401,7 @@
     </div>
   </div>
 
-  <div id="oprema-odrzavanje" class="properties section">
+  <div id="oprema" class="properties section">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 offset-lg-4">
@@ -375,7 +432,7 @@
     </div>
   </div>
 
-  <div class="contact section">
+  <div id="kontakt" class="contact section">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 offset-lg-4">
@@ -393,7 +450,7 @@
       <div class="row">
         <div class="col-lg-7">
           <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2839.7724323322377!2d17.387287999999998!3d44.6221275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475e146a124feeeb%3A0x1228f16d35726dfd!2sVidovdanska%2C%20Kotor%20Varo%C5%A1!5e0!3m2!1shr!2sba!4v1695908155028!5m2!1shr!2sba" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2839.7724323322377!2d17.387287999999998!3d44.6221275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475e146a124feeeb%3A0x1228f16d35726dfd!2sVidovdanska%2C%20Kotor%20Varo%C5%A1!5e0!3m2!1shr!2sba!4v1695908155028!5m2!1shr!2sba" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          </div>
           <div class="row">
             <div class="col-lg-6">
               <div class="item phone">

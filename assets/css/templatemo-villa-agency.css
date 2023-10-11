@@ -162,7 +162,7 @@ h6 {
 }
 
 ul {
-  margin-bottom: 0px;
+  margin-bottom: 0px !important;
 }
 
 p {
@@ -473,13 +473,9 @@ Header Style
   display: inline-block;
 }
 
-.header-area .main-nav .logo h1 {
-  font-size: 28px;
-  text-transform: uppercase;
-  color: #e32b2b;
-  font-weight: 700;
-  letter-spacing: 2px;
-  margin-top: 10px;
+.header-area .main-nav .logo img {
+  width: 70px;
+  /* transform: translateY(15px); */
 }
 
 .header-area .main-nav ul.nav {
@@ -743,7 +739,7 @@ Header Style
     text-transform: capitalize !important;
   }
   .header-area {
-    padding: 0px 15px;
+    padding: 0;
     height: 80px;
     box-shadow: none;
     text-align: center;
@@ -758,6 +754,7 @@ Header Style
     display: block !important;
   }
   .header-area .main-nav {
+    width: 100%;
     overflow: hidden;
   }
   .header-area .main-nav .nav {
@@ -1078,7 +1075,7 @@ Fun Facts Style
 
 .fun-facts {
   text-align: center;
-  margin-top: 125px;
+  transform: translateY(-120px);
 }
 
 .fun-facts .counter {
@@ -1825,6 +1822,7 @@ body {
   }
   .fun-facts .counter {
     margin-bottom: 45px;
+    width: 90%;
   }
   .best-deal .section-heading {
     text-align: center;
@@ -1859,7 +1857,9 @@ body {
   }
   .contact-content .email {
     margin-left: 0px;
-    margin-bottom: 45px;
+  }
+  .contact-content .email img {
+    margin-top: 7px;
   }
   .contact-content #contact-form {
     margin-left: 0px;

@@ -1,0 +1,10 @@
+.carousel-translate {
+  width: 50% !important;
+  transform: translateY(-250px);
+}
+
+@media (max-width: 767px) {
+  .carousel-translate {
+    width: 90% !important;
+  }
+}
